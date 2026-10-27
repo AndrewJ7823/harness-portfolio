@@ -1,0 +1,22 @@
+# 하네스 게이트 상태 원장 — 예시(가상 티켓)
+# 요구·담당자 정본은 이슈 트래커, 조사·판단 이력은 record. 여기에는 "지금 어디까지 왔나"만 둔다.
+
+- id: "PROJ-1234"
+  title: "알림 발송 이력 조회 API"
+  domain: "notification"
+  status: "review"
+  assignee: "andrewj7823"
+  spec: "specs/PROJ-1234-notification-send-history.md"
+  record: "records/notification/PROJ-1234-notification-send-history.md"
+  branch: "feat/PROJ-1234"
+  notes: "검증 PASS, PR 생성 완료. 머지 대기."
+
+- id: "PROJ-1240"
+  title: "알림 발송 이력 화면"
+  domain: "notification"
+  status: "blocked"
+  assignee: "미배정"
+  spec: null
+  record: null
+  branch: null
+  notes: "PROJ-1234 API 배포 후 착수(백엔드 먼저 배포)."
